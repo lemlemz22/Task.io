@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="laverdad.edu.ph.task_io.SplashScreen"
+    android:background="@drawable/splashscreen"
+    android:scaleType="centerCrop">
+
+    <Button
+        android:id="@+id/bDisplay1"
+        android:layout_width="wrap_content"
+        android:layout_height="400px"
+        android:text="Get Started!"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="44dp"
+        android:onClick="onButtonClick4" />
+
+</RelativeLayout>
